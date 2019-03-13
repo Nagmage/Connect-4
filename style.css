@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(#ff3838, #3838ff);
+}
+
+.blue-win {
+  background: blue !important;
+}
+
+.red-win {
+  background: red !important;
+}
+
+.board-buttons {
+  font-size: 34pt;
+  color: whitesmoke;
+}
+
+.flex-container {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  background-color: #553317;
+  color: antiquewhite;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 3px;
+  margin: 0% 10% 0% 10%;
+  border: 0.5rem solid grey;
+  border-radius: 10px;
+}
+.flex-container #reset {
+  background-color: antiquewhite;
+}
+.flex-container #reset:hover {
+  transition-duration: 0.25s;
+  background-color: white;
+}
+.flex-container #reset:active {
+  background-color: #afa699;
+}
+.flex-container .board-container {
+  margin: 1%;
+}
+.flex-container .board-container .board-buttons {
+  border: 4px solid antiquewhite;
+  border-radius: 50%;
+  height: 10.8%;
+  width: 14%;
+  margin: 0.12%;
+  background-color: red;
+}
+.flex-container .board-container .board-piece {
+  border: 4px solid antiquewhite;
+  border-radius: 50%;
+  height: 10.8%;
+  width: 14%;
+  margin: 0.12%;
+  background-color: #553317;
+}
+
+.full {
+  background-color: black !important;
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=style.css.map */
