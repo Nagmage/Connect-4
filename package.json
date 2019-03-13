@@ -1,0 +1,26 @@
+{
+  "name": "testprogram",
+  "version": "0.1.0",
+  "description": "a test electron app",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "compile": "node-gyp rebuild",
+    "start": "npm run build && electron .",
+    "begin":"npm run build && electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Nikos Aghazarian",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.17.0"
+  },
+  "devDependencies": {
+    "electron": "^4.0.1",
+    "nan": "^2.12.1",
+    "node-gyp": "^3.8.0"
+  }
+}
